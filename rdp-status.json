@@ -1,25 +1,25 @@
 {
   "active": false,
-  "hostname": "rdpfree-3",
+  "hostname": "rdpfree-4",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
     "ram_gb": 16.0,
-    "cpu_threads": 4,
-    "disk_free_gb": 79.8
+    "disk_free_gb": 82.9,
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-19T02:45:08Z",
-  "expires_at": "2026-10-19T08:40:08Z",
+  "started_at": "2026-10-19T02:48:35Z",
+  "expires_at": "2026-10-19T08:43:35Z",
   "duration_menit": 355,
-  "run_id": "39191409752",
+  "run_id": "39191677721",
   "run_attempt": "1",
-  "run_number": "3",
-  "run_url": "https://github.com/manzanerojesus760-sudo/xyadmin-/actions/runs/39191409752",
+  "run_number": "4",
+  "run_url": "https://github.com/manzanerojesus760-sudo/xyadmin-/actions/runs/39191677721",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,7 +39,6 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
       "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
       "status": "failed",
@@ -47,7 +46,8 @@
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    }
+    },
+    "mode": "tailscale"
   },
-  "stopped_at": "2026-10-19T02:45:19Z"
+  "stopped_at": "2026-10-19T02:48:47Z"
 }
